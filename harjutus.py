@@ -36,3 +36,5 @@ class Bank(User): # loob klassi Bank, mis on User alamklass ja seega pärandab U
     def view_balance(self): # meetod, mis näitab kasutajale, kui palju raha on kontol ja kasutaja andmeid.
         self.show_details() # kasutab meetodit, mis näitab kasutajale oma andmeid
         print("Account balance has been updated : £", self.balance) # väljastab kasutajale info, et kui palju on arve peal raha
+
+# teine versioon
